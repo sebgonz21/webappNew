@@ -1,9 +1,14 @@
 div
     margin: 0 
 
+.detail-title
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
+    font-size: 0.9em
+    font-weight: bold
+
 .detail-label
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
-    font-size: 0.8em
+    font-size: 0.85em
 
 =border-radius($radius)
     -webkit-border-radius: $radius
@@ -18,7 +23,7 @@ div
     border: solid black 0.1em
 
     div
-        padding: 0 !important
+        padding: 0 
 
     .server-box
         text-align: center
@@ -32,11 +37,19 @@ div
 
             .image-box
                 border-bottom: solid grey 0.1em
-                +border-radius(0.3em)  
+                +border-radius(0.3em)
+                padding-bottom: 1em  
 
             .stat-box
-                //put something here
-               
+                text-align: left
+                padding-left: 1em
+
+                p
+                    margin: 0
+            
+            .stat-box-left
+                border-right: solid grey 0.1em  
+
             .mid-stat
                 border-left: solid grey 0.1em
                 border-right: solid grey 0.1em
@@ -58,6 +71,6 @@ div
             .history-box
                 border: solid white 0.1em
                 background-color: #CECECE
-
+                color: blue
 
 

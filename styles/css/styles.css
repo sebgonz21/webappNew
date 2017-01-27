@@ -1,14 +1,19 @@
 div { margin: 0; }
 
-.detail-label { font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; font-size: 0.8em; }
+.detail-title { font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; font-size: 0.9em; font-weight: bold; }
+
+.detail-label { font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", "sans-serif"; font-size: 0.85em; }
 
 .group-box { background-color: dodgerblue; padding: 1em 1em 1em 1em; border: solid black 0.1em; }
-.group-box div { padding: 0 !important; }
+.group-box div { padding: 0; }
 .group-box .server-box { text-align: center; background-color: white; border: solid black 0.1em; }
 .group-box .server-box .details-container .details, .group-box .server-box .details-container .top-details, .group-box .server-box .details-container .middle-details, .group-box .server-box .details-container .bottom-details { border-bottom: solid grey 0.1em; }
-.group-box .server-box .details-container .image-box { border-bottom: solid grey 0.1em; -webkit-border-radius: 0.3em; -moz-border-radius: 0.3em; -ms-border-radius: 0.3em; border-radius: 0.3em; }
+.group-box .server-box .details-container .image-box { border-bottom: solid grey 0.1em; -webkit-border-radius: 0.3em; -moz-border-radius: 0.3em; -ms-border-radius: 0.3em; border-radius: 0.3em; padding-bottom: 1em; }
+.group-box .server-box .details-container .stat-box { text-align: left; padding-left: 1em; }
+.group-box .server-box .details-container .stat-box p { margin: 0; }
+.group-box .server-box .details-container .stat-box-left { border-right: solid grey 0.1em; }
 .group-box .server-box .details-container .mid-stat { border-left: solid grey 0.1em; border-right: solid grey 0.1em; }
 .group-box .server-box .details-container .buttons-container button { width: 100%; }
-.group-box .server-box .hourly-container .history-box { border: solid white 0.1em; background-color: #CECECE; }
+.group-box .server-box .hourly-container .history-box { border: solid white 0.1em; background-color: #CECECE; color: blue; }
 
 /*# sourceMappingURL=styles.css.map */
